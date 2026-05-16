@@ -259,7 +259,62 @@ body {
     .hero-texto h1 {
         color: var(--braco);
     }
-    
-    
+    .hero-texto p{
+        color: var(--braco);
+    }
+    #label-problema {
+        color: var(--rosa);
+    }
+    .problema-texto h2{
+        color: var(--braco);
+    }
+   .destaque-rosa{
+  color: var(--rosa);
+    }
 
-   
+    .problema-texto p{
+        color: var(--braco);
+    }
+     #degrade{
+         background: linear-gradient(to right, #ff6a00, #cc00ff); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+     }
+     .secao-solucao h2{
+        color: var(--braco);
+     }
+     .secao-solucao p{
+        color: var(--braco);
+     }
+     #label-solucao{
+        color: var(--roxo);
+     }
+     .secao-ranking h2 {
+        color: var(--braco);
+     }
+     .secao-ranking p{
+        color: var(--braco);
+     }
+     #label-ranking{
+        color: var(--roxo);
+     }
+     .destaque-rosa {
+        color: var(--rosa);
+     }
+     .secao-streak h2{
+        color: var(--braco);
+     }
+     .secao-streak p{
+        color: var(--braco);
+     }
+     .secao-pet h2{
+        color: var(--braco);
+     }
+     .secao-pet p{
+        color: var(--braco);
+     }
+     #label-streak {
+        color: var(--roxo);
+     }
+     
