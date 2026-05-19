@@ -77,8 +77,39 @@ body {
     .logo{
         margin-left: 50px;
     }
-   
 
+    /*responsividade navbar*/
+
+    @media (max-width: 768px) {
+        .navbar {
+            width: 90%;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px auto;
+            padding: 16px 20px;
+        }
+
+        .logo {
+            margin-left: 0;
+        }
+
+        .menu {
+            margin-right: 0;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .menu {
+            gap: 12px;
+        }
+
+        .menu li a {
+            font-size: 0.85rem;
+        }
+    }
 
 
     /*css-homepage*/
