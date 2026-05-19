@@ -40,3 +40,33 @@
     font-size: 1.1rem;
     line-height: 1.7;
 }
+
+
+
+.faq-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 60px 24px 80px;
+    text-align: center;
+}
+
+.faq-cta h2 {
+    color: var(--braco);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.faq-cta p {
+    color: var(--braco);
+    font-size: 1rem;
+}
+
+.faq-cta-botao {
+    margin-top: 24px;
+    border-radius: 16px;
+    padding: 20px 48px;
+    font-size: 1rem;
+    font-weight: 600;
+}
